@@ -1,4 +1,7 @@
 # Draw_A_Ball
+
+![image](https://github.com/bobwzb/Draw_A_Ball/blob/master/images/res.PNG)
+
 This project is mainly about draw a ball on a 2D plane. Usually the ratio of the text is 2:1 so we just set the plane to 80*40.
 
 If we project the ball into the plane, it will just like a simple circle (x^2+y^2<=1). So inside the circle we need to draw the shadow and outside the circle, we just need to fill the background with a character (B).
@@ -12,6 +15,8 @@ Usually, we use the Lambert model to draw the color:
 max(L·N,0)
 
 L is the direction of the light. N is normal. We use the max function is because if the intersection angle is over 90, there won't be light at this point. It may cause the picture is too dark. So we choose to use another sslution here, Half Lambert.
+
+![image](https://github.com/bobwzb/Draw_A_Ball/blob/master/images/half%20lambert.jpg)
 
 (L·N+1)/2
 
