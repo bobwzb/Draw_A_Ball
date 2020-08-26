@@ -20,7 +20,7 @@ L is the direction of the light. N is normal. We use the max function is because
 
 (L·N+1)/2
 
-Half Lambert is first used in the Half Life by Valve. This model can increase the degree from 90 to 180, which can make nearly all the surface can be colored.
+Half Lambert is first used in the Half Life by Valve. This msolution can increase the visible degree from 90 to 180, which can make nearly all the surface be colored.
 
 This time we just choose the L=[ √3/3 , √3/3 , √3/3 ] as the direction of light, which is already normalized. So finally the function we use will be:
 
