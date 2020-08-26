@@ -14,7 +14,7 @@ Usually, we use the Lambert model to draw the color:
 
 max(L·N,0)
 
-L is the direction of the light. N is normal. We use the max function is because if the intersection angle is over 90, there won't be light at this point. It may cause the picture is too dark. So we choose to use another sslution here, Half Lambert.
+L is the direction of the light. N is normal. We use the max function is because if the intersection angle is over 90, there won't be light at this point. It may cause the picture is too dark. So we choose to use another solution named Half Lambert here.
 
 ![image](https://github.com/bobwzb/Draw_A_Ball/blob/master/images/half%20lambert.jpg)
 
